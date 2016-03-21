@@ -177,9 +177,13 @@ test_function("numpy.unique",
               not_called_msg = "Don't remove the call of `np.unique` to define `ints`.",
               incorrect_msg = "Don't change the call of `np.unique` to define `ints`.")
 # Check if the student removed the ints object
-test_object("ints",
-            undefined_msg = "Don't remove the definition of the predefined `ints` object.",
-            incorrect_msg = "Don't change the definition of the predefined `ints` object.")
+test_correct({
+  test_object("ints",
+              undefined_msg = "Don't remove the definition of the predefined `ints` object.",
+              incorrect_msg = "Don't change the definition of the predefined `ints` object.")
+},{
+  test_object("not_here")
+})
 
 # Check if the student imported matplotlib.pyplot like the solution
 # Let automatic feedback message generation handle the feedback messages

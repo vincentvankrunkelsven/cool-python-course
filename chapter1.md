@@ -4,13 +4,13 @@ description : Insert the chapter description here
 attachments :
   slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
 
---- type:VideoExercise lang:python xp:50 skills:1
+--- type:VideoExercise lang:python xp:50 skills:1 key:5015d77ad3a7e2d2a190518ad795d2eebbb9edfa
 ## Analyze movie ratings
 
 *** =video_link
 //player.vimeo.com/video/154783078
 
---- type:MultipleChoiceExercise lang:python xp:50 skills:1
+--- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:c0c04e66db7f0aa1e18225622a4caa89979e9a0a
 ## A really bad movie
 
 Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
@@ -56,7 +56,7 @@ msg_success = "Exactly! The correlation is very weak though."
 test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success]) 
 ```
 
---- type:MultipleChoiceExercise lang:python xp:50 skills:1
+--- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:c0c04e66db7f0aa1e18225622a4caa89979e9a0a
 ## A really bad movie
 
 Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
@@ -102,7 +102,7 @@ msg_success = "Exactly! The correlation is very weak though."
 test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
 ```
 
---- type:NormalExercise lang:python xp:100 skills:1
+--- type:NormalExercise lang:python xp:100 skills:1 key:175bb14dadcc34732c98b123cd2780b2fe5407d2
 ## Plot the movies yourself
 
 Do you remember the plot of the last exercise? Let's make an even cooler plot!

@@ -5,7 +5,7 @@ attachments :
   slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
 
 --- type:VideoExercise lang:python xp:50 skills:1 key:5015d77ad3a7e2d2a190518ad795d2eebbb9edfa
-## Analyze movie ratings
+## analyze movie ratings
 
 *** =video_link
 //player.vimeo.com/video/154783078

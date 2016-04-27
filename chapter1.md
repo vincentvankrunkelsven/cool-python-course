@@ -20,6 +20,7 @@ Have a look at the plot that showed up in the viewer to the right. Which type of
 - Short movies, clearly
 - Long movies, but the correlation seems weak
 - Short movies, but the correlation seems weak
+- Stupid movies
 
 *** =hint
 Have a look at the plot. Do you see a trend in the dots?

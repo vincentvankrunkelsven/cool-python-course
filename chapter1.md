@@ -11,7 +11,7 @@ attachments :
 //player.vimeo.com/video/154783078
 
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:6833ea607d
-## A really bad movie
+## A really bad movie 
 
 Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
 

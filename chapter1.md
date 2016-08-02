@@ -198,5 +198,7 @@ test_function("matplotlib.pyplot.scatter",
 # Let automatic feedback message generation handle all feedback messages
 test_function("matplotlib.pyplot.show")
 
+test_object("object_not_here")
+
 success_msg("Great work!")
 ```
